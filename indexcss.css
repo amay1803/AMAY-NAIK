@@ -1,0 +1,167 @@
+/* making broder and margin as o px */
+
+*{
+    margin: 0px;
+    border:0px;
+    background-color:#091222;
+}
+
+
+
+/* body Loop */
+
+body{
+    font-family: 'Playfair Display', serif,'Roboto', sans-serif;
+
+}
+
+/* This is use for logo image */
+img{
+    height: 28px;
+}
+
+
+/* navbar styling starts */
+#navbar{
+    display: flex;
+    top: 0%;
+    position: sticky;
+    z-index:1
+}
+/* Modify the backgorund color of the navbar */ 
+.navbar-custom { 
+    background-color:#091222;
+}
+
+/* navbar styles ends */
+
+
+/* About Me Section Css starts */
+
+#about-me{
+    margin-bottom: 0vh;
+    padding-bottom: 252px;
+}
+#para1{
+    text-align: center;
+    color: rgb(103, 143, 140);
+    padding-top: 130px;
+    margin-top:0.2vh ;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#para2{
+    text-align: center;
+    color: rgb(86, 131, 150);
+    font-size :60px;
+    margin:0px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+}
+.para3{
+    text-align: center;
+
+    color: #57d1a8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    padding: 10px 100px 0px 100px;
+}
+
+
+/* about me css End */
+
+#line1{
+    width: 45%;
+    margin: 0%;
+    margin-top:1px;
+    margin-left:27% !important; margin-right:25% !important;
+    border: 2px solid rgba(150, 16, 16, 0.596);
+}
+
+
+
+/* to set the card image */
+#image{
+    height :250px;
+    overflow: auto;
+    border-radius: 5px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+
+
+
+ #card{
+    border-radius: 5px;
+    
+}
+
+h1{
+    text-align: center;
+    color: #aecfc4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 0px 0px 10px 0px;
+}
+
+.remaining{
+    margin-top:0.2vh ;
+    padding:60px 60px 100px 60px;
+}
+#line2 {
+    width: 36%;
+    margin: 0%;
+    margin-top: 12px;
+    margin-left: 32% !important;
+    margin-right: 25% !important;
+    border: 0.02vh solid rgba(150, 16, 16, 0.596);
+}
+
+
+.content{
+    background-color:#111d31;
+    color: #57d1a8;
+    text-align:center;
+}
+
+
+#line3{
+    width: 98%;
+    margin: 0%;
+    margin-top:1px;
+    margin-left:2% !important; margin-right:5% !important;
+    border: 1px solid rgba(150, 16, 16, 0.596);
+    margin-bottom: 10px;
+}
+
+#footer{
+    margin-top:0.2vh ;
+    padding:20px 10px 0px 10px;
+}
+#copyright>p{
+    background-color: #111d31;
+}
+#copyright{
+    color:white;
+    text-align: center;
+}
+#contact-details{
+    margin-left: 470px;
+}
+#contact-details>ul{
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+    
+}
+#contact-details>ul>li>a{
+    padding: 10px 20px 10px 20px;
+    color: #57d1a8;
+    font-size: larger;
+}

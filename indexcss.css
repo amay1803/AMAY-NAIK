@@ -165,3 +165,23 @@ h1{
     color: #57d1a8;
     font-size: larger;
 }
+
+#div-btn-resume{
+    padding: 0px 0px 10px 47%;
+    
+}
+#btn-resume{
+    background-color: rgb(149, 202, 248);
+}
+
+#btn-resume:hover{
+background-color: #091222;
+
+
+}
+#Resume{
+    color:#ffffff;
+}
+#Resume:hover{
+    color:#57d1a8;
+}

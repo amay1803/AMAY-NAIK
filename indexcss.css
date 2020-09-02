@@ -169,8 +169,6 @@ h1{
     color: #57d1a8;
     font-size: larger;
 }
-
-
 @media screen and (max-width: 480px){
     .para3{
         text-align: center;
